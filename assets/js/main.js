@@ -18,6 +18,19 @@
 
 	// Stops animations/transitions until the page has ...
 
+	$(document).ready(function() {
+		$('.opener1').load('content.html');
+		$('.opener2').load('b.html');
+	});
+
+
+
+	$(document).on('click', '.rowOptions span', function () {
+		$(this).parent().find('ul').slideToggle(250);
+	});
+
+	$(".row222").hide();
+
 		// ... loaded.
 			$window.on('load', function() {
 				window.setTimeout(function() {
@@ -41,6 +54,8 @@
 					}, 100);
 
 			});
+
+
 
 	// Fixes.
 
