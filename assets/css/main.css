@@ -73,7 +73,14 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #ffffff; }
+  background: #ffffff; 
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-image: url(../../images/image-5.jpg);
+  background-repeat: no-repeat;
+  background-color:#464646;
+}
   body.is-preload *, body.is-preload *:before, body.is-preload *:after, body.is-resizing *, body.is-resizing *:before, body.is-resizing *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -1830,6 +1837,11 @@ button,
   -ms-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   transition: margin-left 0.5s ease, box-shadow 0.5s ease;
   background-color: #f5f6f7;
+  background-image: url(../../images/image-7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
   font-size: 0.9em;
   position: relative;
   width: 26em; }
